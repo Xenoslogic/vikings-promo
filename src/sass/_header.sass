@@ -1,11 +1,10 @@
 .header
+	min-width: 100vw
+	min-height: 100vh
 	background-image: url('../img/1st-screen-bg.jpg')
 	background-repeat: no-repeat
 	background-size: cover
 	background-position: center center
-	min-width: 100vw
-	min-height: 100vh
-
 
 .menu
 	min-width: 810px
@@ -16,19 +15,31 @@
 		margin: 0 auto
 		padding: 0
 		text-align: center
+		font-size: 36px
+		line-height: 42px
 
 		&-item
 			display: inline-block
 			margin-right: 25px
+			vertical-align: middle
+		&-link__active
+			text-decoration: underline
+			color: #85CCDC
 		&-link:hover
 			text-decoration: underline
 			color: #85CCDC
 
 .header__logo
 	margin: 0 auto
-	width: 880px
+	width: 780px
 	height: 321px
 
+// @media (max-width: 1280px)
+// .header
+// 	background-image: url('../img/1st-screen-bg-1280.jpg')
 
-		
-
+// @media (max-width: 800px)
+// .header
+// 	background-image: url('../img/1st-screen-bg-800.jpg')
+// 	&__logo
+// 		width: 540px

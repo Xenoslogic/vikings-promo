@@ -1,0 +1,67 @@
+.all-seasons
+	min-height: 1020px
+	background-image: url('../img/all-seasons-bg.jpg')
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center center
+	border: 1px solid transparent
+
+.all-seasons__title
+	margin: 0 auto
+	font-size: 36px
+	line-height: 42px
+	font-weight: 400
+	text-align: center
+	padding-top: 100px
+	padding-bottom: 170px
+.all-seasons__wrapper
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+
+.all-seasons__wrapper-item
+	flex-basis: 250px
+	margin-right: 75px
+	margin-bottom: 100px
+	position: relative
+	z-index: 1
+.all-seasons__wrapper-item:hover .all-seasons__wrapper-item-link
+	opacity: 0.7
+.all-seasons__wrapper-item:hover::after
+	content: ''
+	text-align: center
+	padding-top: 75px
+	cursor: pointer
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background-color: #0E0E0E
+	opacity: 0.7
+	z-index: 2
+
+.all-seasons__wrapper-item:nth-child(3n)
+	margin-right: 0px
+
+.season-num
+	font-weight: 700
+	font-size: 96px
+	line-height: 112px
+	color: #600E09
+	position: absolute
+	left: 0px
+	top: -60px
+	z-index: -1
+
+.all-seasons__wrapper-item-link
+	display: block
+	padding: 10px 25px
+	border-radius: 25%
+	background-color: #600E09
+	position: absolute
+	left: 75px
+	top: 75px
+	z-index: 3
+	opacity: 0
+	transition: all .5
