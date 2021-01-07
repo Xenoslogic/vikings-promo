@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\web-dev-snippets"
+	}
+],
+  "settings": {
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.multiRootWorkspaceName": "web-dev-snippets",
+    "liveSassCompile.settings.formats": [
+
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+      }
+    ]
+  }
+}
